@@ -1,13 +1,12 @@
 ## Description
 
-O dono da carteira pode depositar tokens nativos (ETH) em um cofre pessoal.
-O dono da carteira pode sacar fundos de seu cofre, mas apenas até um limite fixo por transação.
-O contrato impõe um limite global de depósitos (bankCap), definido durante a implantação.
-Interações internas e externas seguem boas práticas de segurança e instruções revert com erros personalizados claros, caso as condições não sejam atendidas.
-Eventos são emitidos tanto em depósitos quanto em saques bem-sucedidos.
-O contrato registra o número de depósitos e saques.
-Utilizado padrões de Segurança.
-
+The wallet owner can deposit native tokens (ETH) into a personal vault.
+The wallet owner can withdraw funds from their vault, but only up to a fixed limit per transaction.
+The contract imposes a global deposit limit (bankcap), defined during deployment.
+Internal and external interactions follow security best practices and revert instructions with clear custom errors if conditions are not met.
+Events are issued for both successful deposits and withdrawals.
+The contract records the number of deposits and withdrawals.
+Security standards are used.
 
 ## Requirements
 
