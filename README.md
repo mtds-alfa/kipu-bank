@@ -1,8 +1,8 @@
 ## Description
 
 The wallet owner can deposit native tokens (ETH) into a personal vault.
-The wallet owner can withdraw funds from their vault, but only up to a fixed limit per transaction.
-The contract imposes a global deposit limit (bankcap), defined during deployment.
+The wallet owner can withdraw funds from their vault, but only up to a fixed limit per transaction (5 ETH).
+The contract imposes a global deposit limit (bankcap), defined during deployment (100 ETH).
 Internal and external interactions follow security best practices and revert instructions with clear custom errors if conditions are not met.
 Events are issued for both successful deposits and withdrawals.
 The contract records the number of deposits and withdrawals.
